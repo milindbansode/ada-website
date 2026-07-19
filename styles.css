@@ -96,22 +96,33 @@ a:hover { color: var(--gold); }
   color: var(--navy-dark);
 }
 
-.brand-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: var(--navy);
-  color: var(--white);
-  font-family: Georgia, serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.02em;
+.brand-mark-img {
+  width: 46px;
+  height: 46px;
+  display: block;
 }
-.brand-mark.small { width: 34px; height: 34px; font-size: 0.8rem; }
+.brand-mark-img.small { width: 36px; height: 36px; }
 
-.brand-text { font-size: 1.05rem; }
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+.brand-text-main { font-size: 1rem; }
+.brand-text-sub {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-brand p { margin: 0; }
 
 .main-nav ul {
   list-style: none;

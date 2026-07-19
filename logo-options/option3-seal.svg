@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" width="640" height="200">
+  <defs>
+    <clipPath id="circleClip3">
+      <circle cx="100" cy="86" r="56"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="100" cy="86" r="72" fill="#C9962C"/>
+  <circle cx="100" cy="86" r="64" fill="#0B4F6C"/>
+  <circle cx="100" cy="86" r="56" fill="#0B4F6C" stroke="#F1ECE1" stroke-width="1.5"/>
+
+  <g clip-path="url(#circleClip3)">
+    <g fill="#F1ECE1">
+      <path d="M100 52
+               c11 0 20 9 20 21
+               c0 6 -3 12 -7 16
+               c9 4 18 11 22 22
+               l0 20
+               c0 5 -4 9 -9 9
+               l-52 0
+               c-5 0-9 -4 -9 -9
+               l0 -20
+               c4 -11 13 -18 22 -22
+               c-4 -4 -7 -10 -7 -16
+               c0 -12 9 -21 20 -21 z"/>
+    </g>
+    <g stroke="#0B4F6C" stroke-width="3" fill="none">
+      <circle cx="92" cy="72" r="6"/>
+      <circle cx="108" cy="72" r="6"/>
+      <line x1="98" y1="72" x2="102" y2="72"/>
+    </g>
+  </g>
+
+  <!-- ribbon banner -->
+  <path d="M60 150 L140 150 L150 168 L140 186 L60 186 L50 168 Z" fill="#C9962C"/>
+  <text x="100" y="173" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#0B4F6C" text-anchor="middle">CHARLOTTE</text>
+
+  <text x="200" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#0B4F6C">Ambedkarite</text>
+  <text x="200" y="116" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" fill="#0B4F6C">Dhamma Association</text>
+  <text x="200" y="144" font-family="Arial, sans-serif" font-size="16" fill="#4A5568" letter-spacing="1">Serving Charlotte with equality, education &amp; compassion</text>
+</svg>

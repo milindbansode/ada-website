@@ -97,11 +97,11 @@ a:hover { color: var(--gold); }
 }
 
 .brand-mark-img {
-  width: 46px;
-  height: 46px;
+  width: 62px;
+  height: 62px;
   display: block;
 }
-.brand-mark-img.small { width: 36px; height: 36px; }
+.brand-mark-img.small { width: 48px; height: 48px; }
 
 .brand-text {
   display: flex;

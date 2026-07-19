@@ -15,11 +15,22 @@ navList.querySelectorAll('a').forEach(link => {
   });
 });
 
+const CONTACT_EMAIL = 'Ambedkaritesdhammaassociation@gmail.com';
 const form = document.getElementById('contactForm');
 const status = document.getElementById('formStatus');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  status.textContent = 'Thank you! This form is not yet connected to a mail service — please email us directly for now.';
+
+  const name = form.name.value.trim();
+  const email = form.email.value.trim();
+  const message = form.message.value.trim();
+
+  const subject = `Website inquiry from ${name}`;
+  const body = `${message}\n\n— ${name} (${email})`;
+  const mailtoLink = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  window.location.href = mailtoLink;
+  status.textContent = 'Opening your email app to send this message to ADA...';
   form.reset();
 });

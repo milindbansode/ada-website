@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160">
+  <defs>
+    <clipPath id="circleClip1">
+      <circle cx="80" cy="80" r="62"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="80" cy="80" r="70" fill="#0B4F6C"/>
+  <circle cx="80" cy="80" r="70" fill="none" stroke="#C9962C" stroke-width="3"/>
+  <circle cx="80" cy="80" r="62" fill="none" stroke="#C9962C" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <g clip-path="url(#circleClip1)">
+    <rect x="18" y="18" width="124" height="124" fill="#0B4F6C"/>
+    <!-- Simplified silhouette portrait: bust in profile, suit + glasses hint -->
+    <g fill="#F1ECE1">
+      <path d="M80 40
+               c14 0 24 11 24 25
+               c0 8 -3 15 -8 20
+               c10 4 22 12 26 26
+               l0 24
+               c0 6 -5 11 -11 11
+               l-62 0
+               c-6 0-11 -5 -11 -11
+               l0 -24
+               c4 -14 16 -22 26 -26
+               c-5 -5 -8 -12 -8 -20
+               c0 -14 10 -25 24 -25 z"/>
+    </g>
+    <!-- glasses hint -->
+    <g stroke="#0B4F6C" stroke-width="3" fill="none">
+      <circle cx="70" cy="65" r="7"/>
+      <circle cx="90" cy="65" r="7"/>
+      <line x1="77" y1="65" x2="83" y2="65"/>
+    </g>
+  </g>
+
+  <text x="170" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#0B4F6C">Ambedkarite Dhamma</text>
+  <text x="170" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#0B4F6C">Association</text>
+  <text x="170" y="130" font-family="Arial, sans-serif" font-size="17" letter-spacing="3" fill="#C9962C">CHARLOTTE</text>
+</svg>
